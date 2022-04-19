@@ -1,0 +1,12 @@
+server:
+    port: 8095
+    servlet:
+        context-path: /swagger
+springdoc:
+    swagger-ui:
+        path: /swagger-ui-custom.html
+        operationsSorter: method
+    api-docs:
+        enabled: true
+    version: 1.0.0
+    
